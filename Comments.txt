@@ -1,0 +1,21 @@
+I approached this problem by doing a simple mapping. There was some data I skipped over as it wasn't needed to solve the problem (County and county_code were irrelevant to getting the SLSCP for the zipcodes rate area.
+
+As I read in the file I created a few different objects to describe the state, zipcode, rate area, and the plans. I ignored any plan that wasn't Silver (again as it wasn't needed. This information could have been saved if needed to say compare against gold plans etc). 
+
+There are a few //TODO 's in the code to signify logging. For this problem I didn't implement any external logging due to the scope of the project.
+
+Included in the zip is the source code, compiled classes, an executable jar file, a compile.bat, and a run.bat. 
+
+The program will accept the where to write the file as an absolute file name or will default to dropping an output.csv in the working directory.
+
+This was compiled and run under Java 1.8_121. It has not been tested in 1.7 but I avoided anything 1.8 specific so everything should work on 1.7 as well.
+
+Let me know if you have any questions. 
+
+Thank you for your time. 
+
+-Robert Eger
+Reger05@yahoo.com
+
+
+
